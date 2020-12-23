@@ -946,22 +946,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dm-grabber@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dm-grabber@workspace:."
-  dependencies:
-    "@babel/core": ^7.12.10
-    babel-eslint: ^10.1.0
-    eslint: ^7.16.0
-    eslint-config-airbnb-base: ^14.2.1
-    eslint-import-resolver-node: ^0.3.4
-    eslint-module-utils: ^2.6.0
-    eslint-plugin-import: ^2.22.1
-    nodemon: ^2.0.6
-    pre-commit: ^1.2.2
-  languageName: unknown
-  linkType: soft
-
 "doctrine@npm:1.5.0":
   version: 1.5.0
   resolution: "doctrine@npm:1.5.0"
@@ -2250,6 +2234,22 @@ fsevents@~2.1.2:
   checksum: fca9ecb1be01f707b76c2aec01f0f2ef4ff45c4e24df378c01a4a2c93b4a8172b47ad59f07af91c54a797a8a77fc72e087e29a97a52c892df507245530c46bfa
   languageName: node
   linkType: hard
+
+"nodejs-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nodejs-starter@workspace:."
+  dependencies:
+    "@babel/core": ^7.12.10
+    babel-eslint: ^10.1.0
+    eslint: ^7.16.0
+    eslint-config-airbnb-base: ^14.2.1
+    eslint-import-resolver-node: ^0.3.4
+    eslint-module-utils: ^2.6.0
+    eslint-plugin-import: ^2.22.1
+    nodemon: ^2.0.6
+    pre-commit: ^1.2.2
+  languageName: unknown
+  linkType: soft
 
 "nodemon@npm:^2.0.6":
   version: 2.0.6
