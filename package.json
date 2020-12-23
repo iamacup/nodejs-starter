@@ -24,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm spaksnjk kasndjkas kdsajkdjksadjksadjkasjkdasjkdhjkasdjkuk ';"
+      "pre-push": "yarn run lint"
     }
   }
 }
