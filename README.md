@@ -3,6 +3,7 @@
 * Yarn 2 package/workspace management
 * Nodemon for auto restart on code-change
 * eslint with code-style forcing and airbnb lint rules - modified for common sense dev
+* husky to handle forced code style (auto lint on git hooks)
 
 ## setup
 
