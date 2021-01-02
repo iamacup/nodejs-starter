@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM node:15.5.0
+FROM node:14.5.0
 
 # set the working directory in the container
 WORKDIR /code
