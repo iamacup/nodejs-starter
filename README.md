@@ -26,5 +26,6 @@ this just runs the `src/index.js file`
 
 ## docker
 
-todo
+* `docker build -t myimage .`
+* `docker run -p 3000:3000 myimage`
 
