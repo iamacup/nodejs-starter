@@ -1,10 +1,10 @@
-version: '2.1'
+version: '3.8'
 services:
   app:
+    # container_name: app # uncomment this line to give your environment a nice name to reference it by with other docker commands
     restart: always
     build:
       context: ./
       dockerfile: ./Dockerfile
-    container_name: app
     expose:
       - "3000"

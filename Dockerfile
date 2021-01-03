@@ -4,12 +4,6 @@ FROM node:14.5.0
 # set the working directory in the container
 WORKDIR /app
 
-# move the package files
-COPY package*.json ./
- 
-# set yarn version
-RUN yarn set version berry
-
 # copy the content of the local directory to the working directory (dockerignore exists)
 COPY . .
 
