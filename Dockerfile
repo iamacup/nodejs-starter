@@ -2,7 +2,7 @@
 FROM node:14.5.0
 
 # set the working directory in the container
-WORKDIR /code
+WORKDIR /app
 
 # move the package files
 COPY package*.json ./
@@ -10,14 +10,14 @@ COPY package*.json ./
 # set yarn version
 RUN yarn set version berry
 
-# install packages
-RUN yarn install
-
 # copy the content of the local directory to the working directory (dockerignore exists)
 COPY . .
+
+# install packages
+RUN yarn install
 
 # expose the port
 EXPOSE 3000
 
 # run the app
-CMD [ "yarn", "start-dev" ] 
+CMD [ "yarn", "start" ] 
