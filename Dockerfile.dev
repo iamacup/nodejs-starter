@@ -11,4 +11,4 @@ RUN yarn install
 EXPOSE 3000
 
 # run the app
-CMD [ "yarn", "start-dev" ] 
+CMD [ "yarn", "start-dev-docker" ] 

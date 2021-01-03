@@ -5,7 +5,7 @@
   "scripts": {
     "entrypoint": "node ./src/index.js",
     "lint": "yarn run eslint --cache=true --fix ./src",
-    "start-dev": "yarn run nodemon --legacy-watch --watch ./src --exec 'yarn run lint && yarn run entrypoint'",
+    "start-dev-docker": "yarn run nodemon --legacy-watch --watch ./src --exec 'yarn run lint && yarn run entrypoint'",
     "start-dev-local": "yarn run nodemon --watch ./src --exec 'yarn run lint && yarn run entrypoint'",
     "start": "yarn run entrypoint"
   },
